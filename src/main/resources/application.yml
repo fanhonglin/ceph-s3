@@ -7,9 +7,9 @@ server:
 # ceph存储相关信息配置
 ceph:
   config:
-    hosts: http://10.88.8.10:18890
-    accessKey: amHndMOAzLCMGlQR7h4l9
-    secretKey: amIuFtoOX8pt7hhSXQ4bj3eB556zJHYveV1yjjVddw
+    hosts: http://10.40.7.78:7480/
+    accessKey: BPVDG8K060D72KQR8P2K
+    secretKey: sExAV2xdVz7ubvFNGCoRAU9mktWEMxBMRhdVR57H
     bucketName: chenoss6d1b6bcd
 
 logging:

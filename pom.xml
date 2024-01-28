@@ -6,7 +6,7 @@
 	<groupId>com.ceph</groupId>
 	<artifactId>ceph</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>ceph-s3</name>
 	<description>ceph对象存储</description>
@@ -58,7 +58,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
+<!--			<scope>compile</scope>-->
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
